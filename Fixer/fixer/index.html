@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	   <title>Currency converter</title>
+     <meta charset="utf-8">
+     <script src="js/jquery-1.11.2.min.js"></script>
+     <script src="js/fixer.js"></script>
+   </head>
+   <body>
+     <p>Amount</p>
+     <input type="number" id="myValue" value="0">
+     <p>From:</p>
+     <select id="fromCurr">
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="GBP">GBP</option>
+     </select>
+     <p>To:</p>
+     <select id="toCurr">
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="GBP">GBP</option>
+     </select>
+     <p><button type="submit" form="nameform" value="submit"  id="doSubmit">Submit</button></p>
+     <input type="number" id="result" readonly>
+   </body>
+</html>
